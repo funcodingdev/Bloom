@@ -12,7 +12,7 @@ class MainActivity : ComponentActivity() {
         val controller = WindowCompat.getInsetsController(window, window.decorView)
         controller.isAppearanceLightStatusBars = true
         setContent {
-            WelcomePage()
+            LoginPage()
         }
     }
 }

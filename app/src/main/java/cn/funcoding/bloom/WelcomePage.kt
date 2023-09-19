@@ -124,7 +124,7 @@ fun WelcomeButtons() {
 
 @Preview(showBackground = true)
 @Composable
-fun BloomPreview() {
+fun WelcomePagePreview() {
     BloomTheme {
         WelcomePage()
     }
